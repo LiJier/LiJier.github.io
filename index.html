@@ -1,14 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="generator" content="Hexo 3.9.0">
-  <meta charset="utf-8">
-  <meta name="baidu-site-verification" content="6fea7fc7276fc383ec5b2080c662f076">
-  <!--
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-  -->
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.3.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.3.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.3.0">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.3.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/index.html">
@@ -16,356 +62,180 @@
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>Hexo</title>
+  <meta name="generator" content="Hexo 3.9.0">
   
-  
-    <link rel="icon" href="/img/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  <script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-1.8.1.min.js"></script>
-  <script src="https://cdn.staticfile.org/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
-  <script src="https://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
-  <script src="/js/search.js"></script>
-  <script src="/js/ug-theme-default.js"></script>
-  <script src="/js/unitegallery.js"></script>
-  <script src="/js/av.min.js"></script>
-  <script src="/js/valine.min.js"></script>
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
 </head>
-</html>
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			<img src="http://kiritor.github.io/img/lcore.jpg" class="js-avatar">
-		</a>
 
-		<hgroup>
-		  <h1 class="header-author"><a href="/" class="alluraregular">John Doe</a></h1>
-		</hgroup>
-        <!--
-		
-        -->
-		
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <div class="container use-motion">
+    <div class="headband"></div>
 
-		<div class="switch-area">
-			<div class="switch-wrap">
-				<section class="switch-part switch-part1">
-					<nav class="header-menu">
-						<ul>
-						
-							<li><a href="/categories/front">Android开发</a></li>
-				        
-							<li><a href="/categories/work">工作日志</a></li>
-				        
-							<li><a href="/categories/life">低吟浅谈</a></li>
-				        
-							<li><a href="/resume">关于我</a></li>
-				        
-						</ul>
-					</nav>
-					<nav class="header-nav">
-						<div class="social">
-							
-								<a class="github" target="_blank" href="https://github.com/LiJier" title="github">github</a>
-					        
-						</div>
-					</nav>
-				</section>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
 
-				
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
 
-				
-
-				
-			</div>
-		</div>
-	</header>
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
 
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"></div>
-  		<h1 class="header-author js-mobile-header hide">John Doe</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-				<img src="http://kiritor.github.io/img/lcore.jpg" class="js-avatar">
-				<hgroup>
-				  <h1 class="header-author">John Doe</h1>
-				</hgroup>
-			</div>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/categories/front">Android开发</a></li>
-		        
-					<li><a href="/categories/work">工作日志</a></li>
-		        
-					<li><a href="/categories/life">低吟浅谈</a></li>
-		        
-					<li><a href="/resume">关于我</a></li>
-		        
-		        <div class="clearfix"></div>
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-						<a class="github" target="_blank" href="https://github.com/LiJier" title="github">github</a>
-			        
-				</div>
-			</nav>
-		</header>
-	</div>
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+  </ul>
+
+    
+
 </nav>
-
-	  <div class="page-header" style="">
-	<!--是否开启站内搜索-->
-	
-	<span class="local-search local-search-google local-search-plugin" style="float:right;">
-  <input type="search" placeholder="Search..." id="local-search-input" class="local-search-input-cls" style="">
-  <!--<i class="icon" aria-hidden="true" title="Search"></i>-->
-  <div id="local-search-result" class="local-search-result-cls"></div>
-</span>
-
-<script>
-    var isMobile = {
-        Android: function() {
-            return navigator.userAgent.match(/Android/i);
-        },
-        BlackBerry: function() {
-            return navigator.userAgent.match(/BlackBerry/i);
-        },
-        iOS: function() {
-            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-        },
-        Opera: function() {
-            return navigator.userAgent.match(/Opera Mini/i);
-        },
-        Windows: function() {
-            return navigator.userAgent.match(/IEMobile/i);
-        },
-        any: function() {
-            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-        }
-    };
-	
-	
-	if(isMobile.any()){
-	    //手机端取消搜索功能
-		$('.local-search').css("display","none");
-	}
-	
-	$(".local-search").on('input porpertychange',function(){
-		
-		//searchFunc("/search.xml", 'local-search-input', 'local-search-result');
-		
-	});
-    
-    if ($('.local-search').size() && !isMobile.any()) {
-        searchFunc("/search.xml", 'local-search-input', 'local-search-result');
-    }
-	
-</script>
-
-	
-	<!--是否开启最近通知-->
-	
-	🍁砰砰在左边,你在砰砰里...
-
-
-	
 </div>
+    </header>
 
-      <div class="body-wrap"><!-- 是否开启微简历 -->
-
-      <div class="resume" id="resume">
-    <ul id="centerwell">
-        <li id="aboutMe">
-            <h3></h3>
-            <div>
-                <h2 style="margin-top:10px;">About Me</h2>
-                <label>姓名:梁涛</label>
-                <label>出生日期:1991/02/27</label>
-                <label style="margin-right:20px">电话:188832519XX</label>
-                </br>
-                <label style="margin-right:20px">学校:西南大学 计算机科学与技术</label>
-                <label>邮件:1406754158@qq.com</label>
-                <label>Website:<a href="http://kiritor.github.io">kiritor.github.io</a>
-                </label>
-            </div>
-
-        </li>
-        <li id="work">
-            <h3></h3>
-            <div>
-                <h2 style="margin-top:10px;">兴趣爱好</h2>
-                <label>程序员一枚,爱好开源,喜欢瞎折腾.</label>
-                </br>
-                <label>成长中的全栈开发者,什么都会,什么也不会.</label>
-                </br>
-                <label>目前作为技术经理,日常打打杂....</label>
-            </div>
-
-        </li>
-        <li id="close" style="float:right;width:40px;">
-            <a class="ck-prev" href="javascript:;">上一张</a>
-        </li>
-    </ul>
-    <script>
-        $(document).ready(function() {
-            var $centerwell_first = $('#centerwell li:first');
-            /* $centerwell_first.animate({
-            width: '400px'
-        }, 300);
-        $centerwell_first.find('h3').animate({}, 300);
-       */
-            /*'#centerwell li').click(function() {
-            window.open($(this).find('a').attr('href'));
-        });
-        */
-            $('#centerwell li').mouseenter(function() {
-                if (!$(this).is(':animated') && $(this).attr("id") != "close") {
-                    $(this).animate({
-                        width: '600'
-                    }, 300).siblings().not("#close").animate({
-                        width: '140px'
-                    }, 300);
-
-                    $(this).find('h3').animate({
-                        backgroundPosition: '-140px'
-                    }, 300).parent().siblings().find('h3').animate({
-                        backgroundPosition: '0px'
-                    }, 300);
-                }
-
-            });
-            $("#close").mouseenter(function() {
-                $('#centerwell li:not(#close)').animate({
-                    width: '140px'
-                }, 300);
-                $('#centerwell li:not(#close)').find("h3").animate({
-                    backgroundPosition: '0px'
-                }, 300);
-            });
-        });
-
-        var isMobile = {
-            Android: function() {
-                return navigator.userAgent.match(/Android/i);
-            },
-            BlackBerry: function() {
-                return navigator.userAgent.match(/BlackBerry/i);
-            },
-            iOS: function() {
-                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-            },
-            Opera: function() {
-                return navigator.userAgent.match(/Opera Mini/i);
-            },
-            Windows: function() {
-                return navigator.userAgent.match(/IEMobile/i);
-            },
-            any: function() {
-                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-            }
-        };
-        if (isMobile.any()) {
-            //手机端
-            $("#resume").css("display", "none");
-        }
-    </script>
-
-</div>
-
-
-<!--
-
--->
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-    <script>
-        $("html").niceScroll({
-            cursorcolor: "#2a2929",
-            cursoropacitymax: 1,
-            touchbehavior: false,
-            cursorwidth: "6px",
-            cursorborder: "5",
-            cursorborderradius: "0px",
-            autohidemode: true
-        });
-    </script>
     
-    <div class="article-meta">
-        <a href="/2019/08/29/hello-world/" class="article-date">
-  	<time datetime="2019-08-29T02:19:33.530Z" itemprop="datePublished">2019-08-29</time>
-</a>
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
-    </div>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <div id="posts" class="posts-expand">
+        <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block home">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/29/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+            
+            <a href="/2019/08/29/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              
+                
+              
+
+              <time title="Created: 2019-08-29 10:19:33" itemprop="dateCreated datePublished" datetime="2019-08-29T10:19:33+08:00">2019-08-29</time>
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
     
-    <div class="article-inner">
-        
-        <input type="hidden" class="isFancy" />
-        
-        
-        <header class="article-header">
-            
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/29/hello-world/">Hello World</a>
-    </h1>
-  
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
-
-        </header>
-        
-        
-
-        <div class="article-entry" itemprop="articleBody">
-
-            
-
-            <p class="toc-button" id="toc-button">目录</p>
-<div id="toc" class="toc-article" style="display:none;">
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
-</div>
-<script>
-    $(function(){
-
-        var width = document.body.scrollWidth;
-        if (width <=550) {
-             $(".toc-button").css("display","none");
-        }
-        $(".toc-button").hover(function(){
-            var top = $(this).get(0).offsetTop-$(".toc-article").height()/2;
-            $(".toc-article").css({
-                top:top +"px"
-            });
-            $("#toc").show(1000,function(){});
-           // $("#toc").animate({width:500;},3000);
-        },function(){
-
-        });
-        $(".toc-article").hover(function(){
-
-        },function(){
-            $("#toc").hide(1000,function(){});
-        });
-    })
-</script>
-
-            
-            
-
-            
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+      
+          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -379,130 +249,158 @@
 
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
-            
-            </br>
-            <p>本文链接：
-                <a href="http://yoursite.com/2019/08/29/hello-world/">
-                    http://yoursite.com/2019/08/29/hello-world/
-                </a>
-            </p>
-            
-            <p>-- <acronym title="End of File">EOF</acronym> --</p>
-
-            <div class="post-info">
-
-                <p>转载请注明出处 署名-非商业性使用-禁止演绎 3.0 国际（CC BY-NC-ND 3.0）</p>
-            </div>
-            
-        </div>
-
         
-        <div class="article-info article-info-index">
-            
-
-            
-
-            
-            <div class="clearfix"></div>
-        </div>
-        
+      
     </div>
+
     
     
     
-
-</article>
-
-
-<script>
-    var isMobile = {
-        Android: function () {
-            return navigator.userAgent.match(/Android/i);
-        },
-        BlackBerry: function () {
-            return navigator.userAgent.match(/BlackBerry/i);
-        },
-        iOS: function () {
-            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-        },
-        Opera: function () {
-            return navigator.userAgent.match(/Opera Mini/i);
-        },
-        Windows: function () {
-            return navigator.userAgent.match(/IEMobile/i);
-        },
-        any: function () {
-            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() ||
-                isMobile.Windows());
-        }
-    };
-    if (isMobile.any()) {
-        //移动端不显示目录和评论
-        $("#toc-button").css("display", "none");
-        $("#commentDiv").css("display", "none");
-    }
-</script>
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
   
+  
+  
+  </article>
+
+    
+  </div>
+
   
 
 
+          </div>
+          
 
-<script>
-
-    $(function(){
-	    var width = document.body.scrollWidth;
-		if(width<=550){
-		    $("#recentComments").css("display","none");
-		}
-	})
-
-</script>
-</div>
-      <!--
-<footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-    	<div class="footer-left">
-    		&copy; 2019 John Doe
-    	</div>
-      	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/kiritor/hexo-theme-yilia-l" target="_blank">Yilia</a> by Litten
-      	</div>
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
-  <script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install','m5RW4BUQrJ_r-CYKAksH','2.0.0');
-</script>
   </div>
-</footer>
--->
-    </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
     
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/mobile.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/prefixfree.js"></script>
+  </nav>
 
 
 
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
 
 
-<div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;z-index:9999;opacity: 100%;">
-    <a title="返回顶部" style="opacity: 100%;">
-        <img src="/img/scrollup.png" />
-    </a>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
 </div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.3.0</div>
 
-<script src="/js/totop.js"></script>
-<script src="/js/share.js"></script>
+        
 
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
   </div>
+
+  
+
+
+  <script src="/lib/anime.min.js?v=3.1.0"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.3.0"></script><script src="/js/motion.js?v=7.3.0"></script>
+<script src="/js/schemes/muse.js?v=7.3.0"></script>
+<script src="/js/next-boot.js?v=7.3.0"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
 </body>
 </html>
